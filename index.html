@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta name="robots" content="index, follow">
+  <meta property="og:url" content="https://nik-013-portfolio.vercel.app/"> <!-- Сюда потом вставить реальную ссылку -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="NIK.DEV - Frontend Developer Portfolio">
+  <meta name="twitter:description" content="Building scalable web interfaces.">
+  <meta name="twitter:image" content="img/content/portfolio.png">
+
+  <meta property="og:title" content="NIK.DEV - Frontend Developer Portfolio">
+  <meta property="og:description" content="Building scalable web interfaces.">
+  <meta property="og:image" content="https://nik-013-portfolio.vercel.app/public/img/content/portfolio.png">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="en_US" />
+  <meta property="og:locale:alternate" content="ru_RU" />
+
+
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Frontend Developer Portfolio." />
+
+  <meta name="msapplication-TileColor" content="#0b001a">
+  <meta name="theme-color" content="#0b001a">
+
+  <link rel="icon" type="image/png" href="/img/favicons/favicon-96x96.png" sizes="96x96" />
+  <link rel="icon" type="image/svg+xml" href="/img/favicons/favicon.svg" />
+  <link rel="shortcut icon" href="/img/favicons/favicon.ico" />
+  <link rel="apple-touch-icon" sizes="180x180" href="/img/favicons/apple-touch-icon.png" />
+  <link rel="manifest" href="/img/favicons/site.webmanifest" />
+
+  <title>NIK.DEV</title>
+
+  <link rel="canonical" href="https://nik-013-portfolio.vercel.app/">
+
+</head>
+
+<body id="home">
+
+  <a href="#about" class="skip_link">Skip</a>
+
+  <div class="container">
+
+    <div class="header_patch"></div>
+
+    <header class="header">
+
+      <div class="logo_container">
+        <a href="#home" class="logo" aria-label="NIK.DEV Home">
+          <span>NIK.DEV</span>
+        </a>
+      </div>
+
+      <div class="menu_container" id="menuContainer">
+
+        <nav class="menu" aria-label="Main navigation">
+
+          <a href="#about">
+            About Me
+            <svg class="icon_ui" aria-hidden="true">
+              <use href="/img/sprite/sprite.svg#icon-arrow"></use>
+            </svg>
+          </a>
+
+          <a href="#portfolio">
+            Portfolio
+            <svg class="icon_ui" aria-hidden="true">
+              <use href="/img/sprite/sprite.svg#icon-arrow"></use>
+            </svg>
+          </a>
+
+          <a href="#skills">
+            Skills
+            <svg class="icon_ui" aria-hidden="true">
+              <use href="/img/sprite/sprite.svg#icon-arrow"></use>
+            </svg>
+          </a>
+
+          <a class="btn_contact js_email" href="#" aria-label="Contact Me">
+            Contact Me
+            <svg class="icon_ui" aria-hidden="true">
+              <use href="/img/sprite/sprite.svg#send_email"></use>
+            </svg>
+          </a>
+
+        </nav>
+
+      </div>
+
+      <button class="burger_btn" aria-label="Toggle menu" aria-controls="menuContainer" aria-expanded="false">
+        <svg class="icon_ui icon-bars" aria-hidden="true">
+          <use href="/img/sprite/sprite.svg#icon-menu"></use>
+        </svg>
+        <svg class="icon_ui icon-close" aria-hidden="true">
+          <use href="/img/sprite/sprite.svg#icon-close"></use>
+        </svg>
+      </button>
+
+      <div class="lang_switcher" aria-label="Language switcher">
+        <a href="index.html" class="lang_link active" aria-current="page">EN</a>
+        <span aria-hidden="true">|</span>
+        <a href="ru.html" class="lang_link">RU</a>
+      </div>
+
+    </header>
+
+    <main>
+
+      <section id="about" class="section_intro" aria-labelledby="head_intro">
+        <div class="wrapper_intro">
+          <picture>
+
+            <source media="(max-width: 512px)" srcset="/img/content/mobile/avatar-low.avif" type="image/avif">
+            <source media="(max-width: 512px)" srcset="/img/content/mobile/avatar-low.webp" type="image/webp">
+            <source media="(min-width: 512px)" srcset="/img/content/desktop/avatar-high.avif" type="image/avif">
+            <source media="(min-width: 512px)" srcset="/img/content/desktop/avatar-high.webp" type="image/webp">
+
+            <img class="img_intro" src="/img/content/desktop/avatar-high.png" width="1024" height="1024"
+              fetchpriority="high" decoding="async" alt="Developer avatar">
+
+          </picture>
+          <div class="text_intro_container">
+            <h1 id="head_intro" class="head_intro">
+              Building scalable web interfaces.
+            </h1>
+            <p class="text_intro">
+              Specializing in <strong>semantic HTML5</strong>, modern <strong>CSS Architecture</strong>, and
+              <strong>Vanilla JavaScript</strong>.
+              Transforming complex Figma designs into clean, maintainable, and high-performance code.
+              Focus on accessibility (A11y) and mobile-first methodology.
+            </p>
+            <p class="status_intro">Open for frontend opportunities.</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="portfolio" class="section_portfolio" aria-labelledby="portfolio_title">
+        <h2 id="portfolio_title" class="section_title_portfolio">Portfolio</h2>
+
+        <div class="projects_grid">
+
+          <article id="work_portfolio" class="project_card portfolio_neon" aria-labelledby="portfolio_title_1">
+
+            <div class="project_header">
+              <h3 id="portfolio_title_1">Portfolio Template</h3>
+            </div>
+
+            <div class="project_media_wrapper" tabindex="0">
+
+              <picture>
+
+                <source media="(max-width: 860px)" srcset="/img/content/mobile/portfolio-preview-low.avif"
+                  type="image/avif">
+                <source media="(max-width: 860px)" srcset="/img/content/mobile/portfolio-preview-low.webp"
+                  type="image/webp">
+                <source media="(min-width: 860px)" srcset="/img/content/desktop/portfolio-preview-high.avif"
+                  type="image/avif">
+                <source media="(min-width: 860px)" srcset="/img/content/desktop/portfolio-preview-high.webp"
+                  type="image/webp">
+
+                <img src="/img/content/desktop/portfolio-preview-high.png"
+                  data-full="/img/content/full/portfolio-high-pc.webp"
+                  data-gallery="/img/content/full/portfolio-high-pc.webp, /img/content/full/portfolio-low-tab.webp, /img/content/full/portfolio-low-mob.webp"
+                  width="1280" height="2248" loading="lazy" decoding="async" alt="My Portfolio Website Preview" />
+
+              </picture>
+
+              <a href="https://github.com/Nik-013/Portfolio_Landing" target="_blank" rel="noopener noreferrer"
+                class="project_link" aria-label="View code on GitHub (opens in a new tab)">
+                <svg class="icon_ui" aria-hidden="true">
+                  <use href="/img/sprite/sprite.svg#icon-github"></use>
+                </svg>
+                View Code
+              </a>
+            </div>
+
+            <div class="project_text">
+              <p>
+                Performance-focused personal website. Built with semantic markup,
+                custom CSS properties (variables), and optimized assets.
+                Lighthouse score: 100/100.
+              </p>
+            </div>
+
+          </article>
+
+          <article id="work_1" class="project_card development" aria-labelledby="portfolio_title_2">
+
+            <div class="project_header">
+              <h3 id="portfolio_title_2">Responsive Fantasy Landing Page</h3>
+            </div>
+
+            <div class="project_media_wrapper">
+
+              <picture>
+
+                <source media="(max-width: 860px)" srcset="/img/content/mobile/fantasy-preview-low.avif"
+                  type="image/avif">
+                <source media="(max-width: 860px)" srcset="/img/content/mobile/fantasy-preview-low.webp"
+                  type="image/webp">
+                <source media="(min-width: 860px)" srcset="/img/content/desktop/fantasy-preview-high.avif"
+                  type="image/avif">
+                <source media="(min-width: 860px)" srcset="/img/content/desktop/fantasy-preview-high.webp"
+                  type="image/webp">
+
+                <img src="/img/content/desktop/fantasy-preview-high.png"
+                  data-full="/img/content/full/fantasy-high-pc-en.webp"
+                  data-gallery="/img/content/full/fantasy-high-pc-en.webp" width="1280" height="2248" loading="lazy"
+                  decoding="async" alt="Fantasy Landing Page" />
+
+              </picture>
+
+              <span class="project_status">Coming Soon</span>
+            </div>
+
+            <div class="project_text">
+              <p>
+                High-fidelity UI implementation featuring parallax scrolling effects
+                and complex CSS animations. Demonstrates layout handling
+                without heavy frameworks.
+              </p>
+            </div>
+          </article>
+
+          <article id="work_2" class="project_card development" aria-labelledby="portfolio_title_3">
+
+            <div class="project_header">
+              <h3 id="portfolio_title_3">Modern Art Gallery Aggregator</h3>
+            </div>
+
+            <div class="project_media_wrapper">
+
+              <picture>
+
+                <source media="(max-width: 860px)" srcset="/img/content/mobile/design-preview-low.avif"
+                  type="image/avif">
+                <source media="(max-width: 860px)" srcset="/img/content/mobile/design-preview-low.webp"
+                  type="image/webp">
+                <source media="(min-width: 860px)" srcset="/img/content/desktop/design-preview-high.avif"
+                  type="image/avif">
+                <source media="(min-width: 860px)" srcset="/img/content/desktop/design-preview-high.webp"
+                  type="image/webp">
+
+                <img src="/img/content/desktop/design-preview-high.png"
+                  data-full="/img/content/full/design-high-pc-en.webp"
+                  data-gallery="/img/content/full/design-high-pc-en.webp" width="1280" height="1690" loading="lazy"
+                  decoding="async" alt="Design Landing Page" />
+
+              </picture>
+
+              <span class="project_status">Coming Soon</span>
+            </div>
+
+            <div class="project_text">
+              <p>
+                Grid-based layout focusing on visual hierarchy and typography.
+                Implements advanced CSS Grid techniques for a magazine-style
+                reading experience.
+              </p>
+            </div>
+          </article>
+
+        </div>
+      </section>
+
+      <section id="skills" class="section_skills" role="region" aria-labelledby="skills_title">
+
+        <h2 id="skills_title" class="section_title_skills">Skills</h2>
+
+        <div class="skills_grid">
+
+          <article id="skills_html" class="skills html">
+            <div class="skills_icon">
+              <svg class="icon_ui" role="img" aria-label="HTML logo">
+                <use href="/img/sprite/sprite.svg#icon-html"></use>
+              </svg>
+            </div>
+            <div class="skills_header">
+              <h3>HTML</h3>
+            </div>
+            <span class="skills_text">
+              Semantic Structure & SEO
+            </span>
+          </article>
+
+          <article id="skills_css" class="skills css">
+            <div class="skills_icon">
+              <svg class="icon_ui" role="img" aria-label="CSS logo">
+                <use href="/img/sprite/sprite.svg#icon-css"></use>
+              </svg>
+            </div>
+            <div class="skills_header">
+              <h3>CSS</h3>
+            </div>
+            <span class="skills_text">
+              Flexbox, Grid, BEM & Animations
+            </span>
+          </article>
+
+          <article id="skills_js" class="skills js">
+            <div class="skills_icon">
+              <svg class="icon_ui" role="img" aria-label="JS logo">
+                <use href="/img/sprite/sprite.svg#icon-js"></use>
+              </svg>
+            </div>
+            <div class="skills_header">
+              <h3>JS</h3>
+            </div>
+            <span class="skills_text">
+              ES6+, DOM Manipulation & APIs
+            </span>
+          </article>
+
+          <article id="skills_figma" class="skills figma">
+            <div class="skills_icon">
+              <svg class="icon_ui" role="img" aria-label="Figma logo">
+                <use href="/img/sprite/sprite.svg#icon-figma"></use>
+              </svg>
+            </div>
+            <div class="skills_header">
+              <h3>Figma</h3>
+            </div>
+            <span class="skills_text">
+              Design Systems & Handoff
+            </span>
+          </article>
+
+          <article id="skills_git" class="skills git">
+            <div class="skills_icon">
+              <svg class="icon_ui" role="img" aria-label="Git logo">
+                <use href="/img/sprite/sprite.svg#icon-git"></use>
+              </svg>
+            </div>
+            <div class="skills_header">
+              <h3>Git</h3>
+            </div>
+            <span class="skills_text">
+              Version Control & CI/CD Basics
+            </span>
+          </article>
+
+        </div>
+      </section>
+
+    </main>
+
+    <footer class="footer_minimal">
+      <div class="footer_message">
+        <h2>Ready to build something exceptional?</h2>
+        <span id="footerStatus" class="status_footer" aria-live="polite"></span>
+      </div>
+      <div class="footer_meta">
+        <span class="copyright">&copy; <span id="currentYear"></span>NIK.DEV. All rights reserved.</span>
+      </div>
+    </footer>
+
+  </div>
+
+  <script type="module" src="/src/js/main.js"></script>
+
+  <!-- Vercel Web Analytics -->
+  <script>
+    window.va = window.va || function () { (window.vaq = window.vaq || []).push(arguments); };
+  </script>
+  <script defer src="/_vercel/insights/script.js"></script>
+
+  <!-- Vercel Speed Insights -->
+  <script>
+    window.si = window.si || function () { (window.siq = window.siq || []).push(arguments); };
+  </script>
+  <script defer src="/_vercel/speed-insights/script.js"></script>
+
+
+
+  <div id="imageModal" class="modal" aria-hidden="true" role="dialog" aria-modal="true" aria-labelledby="modalTitle"
+    aria-describedby="modalImg">
+
+    <h2 id="modalTitle" class="sr_only">Image preview</h2>
+
+    <p id="modalDesc" class="sr_only">Use the left and right arrow keys to navigate. Press Escape to close.</p>
+
+    <button class="modal_nav_btn modal_prev" aria-label="Previous image" aria-controls="modalImg">
+      <svg class="icon_ui" aria-hidden="true">
+        <use href="/img/sprite/sprite.svg#circle-arrow-left"></use>
+      </svg>
+    </button>
+
+    <button class="modal_nav_btn modal_next" aria-label="Next image" aria-controls="modalImg">
+      <svg class="icon_ui" aria-hidden="true">
+        <use href="/img/sprite/sprite.svg#circle-arrow-right"></use>
+      </svg>
+    </button>
+
+    <button class="close_modal" aria-label="Close modal">
+      <svg class="icon_ui icon_close" aria-hidden="true">
+        <use href="/img/sprite/sprite.svg#icon-close"></use>
+      </svg>
+    </button>
+
+    <img id="modalImg" class="modal_content" alt="Full Preview">
+
+  </div>
+
+</body>
+
+</html>

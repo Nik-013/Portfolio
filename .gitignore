@@ -1,0 +1,16 @@
+# 1. Зависимости
+node_modules/
+.pnpm-store/
+
+# 2. Сборка
+dist/
+build/
+
+# 3. Логи и системные файлы
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+.DS_Store
+.idea/
+.vscode/
+*.local
