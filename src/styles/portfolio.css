@@ -39,7 +39,7 @@
 .projects_grid {
   /* Display & Flow */
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* адаптивные столбцы от 250px */
+  grid-template-columns: repeat(auto-fit, minmax(210px, 1fr)); /* адаптивные столбцы от 210px */
   gap: var(--spacing-xl);
 }
 
@@ -216,7 +216,7 @@
   bottom: var(--spacing-md);
 
   /* Padding & Margin */
-  padding: var(--spacing-xs) var(--spacing-lg);
+  padding: var(--spacing-xxs) var(--spacing-md);
 
   /* Border */
   border: 2px solid var(--text-on-interactive);
@@ -252,7 +252,7 @@
   bottom: var(--spacing-md);
 
   /* Padding & Margin */
-  padding: var(--spacing-xs) var(--spacing-lg);
+  padding: var(--spacing-xxs) var(--spacing-md);
 
   /* Border */
   border: 2px solid var(--text-on-interactive);

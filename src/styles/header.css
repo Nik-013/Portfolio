@@ -113,6 +113,8 @@ header.scrolled {
 .burger_btn.active {
   /* Font */
   color: var(--text-on-inverted-accent);
+  /* Transform */
+  transform: translateX(90px);
 }
 
 /* Иконка меню (три полоски) */

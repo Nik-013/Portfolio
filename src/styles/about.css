@@ -49,7 +49,7 @@
   display: block;
 
   /* Dimensions */
-  width: clamp(250px, 40vw, 300px);
+  width: clamp(230px, 40vw, 300px);
   max-width: 100%;
   height: auto;
   aspect-ratio: 1 / 1;
@@ -110,6 +110,7 @@
   /* Font */
   color: var(--text-primary);
   font-size: var(--font-size-body-lg);
+  font-size: clamp(var(--font-size-body-md), 1.5vw, var(--font-size-body-lg));
 }
 
 /* =================================================================
@@ -123,7 +124,7 @@
 
   /* Font */
   color: var(--text-primary);
-  font-size: var(--font-size-body-md);
+  font-size: clamp(var(--font-size-body-xs), 1.5vw, var(--font-size-body-md));
   line-height: 1.8;
 }
 
@@ -138,7 +139,7 @@
 
   /* Font */
   color: var(--text-accent);
-  font-size: var(--font-size-body-lg);
+  font-size: clamp(var(--font-size-body-md), 1.5vw, var(--font-size-body-lg));
   font-weight: 700;
 }
 
